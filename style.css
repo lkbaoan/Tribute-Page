@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+#main {
+    /* flex-direction: column; */
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+}
+#title {
+    text-align: center;
+    padding: 3vh;
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#img-div img {
+    border: 3px solid black;
+    height: 70vh;
+}
+#img-caption {
+    color: black;
+    font-weight: bold;
+    padding: 1vh;
+}
+#tribute-info {
+    display: flex;
+    justify-content: center;
+}
+td a:link {
+    text-decoration: none;
+    font-weight: bold;
+}
+td a:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+table, th, td {
+    background-color: gray;
+}
